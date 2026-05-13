@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; frame-ancestors 'none';">
+<meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+<meta name="robots" content="index, follow">
+<title>Politique de cookies — Studio Capillaire</title>
+<meta name="description" content="Politique de cookies de Studio Capillaire.">
+<link rel="canonical" href="https://ijgenesys.github.io/ijgenesys/cookies-studio.html">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cormorant:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #FAFAFA;
+  --bg-2: #F4F4F4;
+  --bg-3: #1A1A1A;
+  --fg: #1A1A1A;
+  --fg-soft: #6B6B6B;
+  --accent: #2D6A4F;
+  --accent-warm: #40916C;
+  --line: rgba(26, 26, 26, 0.08);
+  --vert: #27AE60;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--fg); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+a { color: var(--accent); text-decoration: none; border-bottom: 1px solid; }
+.nav { position: fixed; top: 0; left: 0; right: 0; background: rgba(250,250,250,0.95); backdrop-filter: blur(10px); padding: 16px 32px; display: flex; justify-content: space-between; align-items: center; z-index: 100; border-bottom: 1px solid var(--line); }
+.nav-logo { display: flex; flex-direction: column; gap: 2px; text-decoration: none; color: var(--fg); border: none; }
+.nav-logo-name { font-family: 'Cormorant', serif; font-size: 1.3rem; font-weight: 600; }
+.nav-logo-sub { font-size: 0.6rem; color: var(--fg-soft); letter-spacing: 0.3em; text-transform: uppercase; }
+.nav-back { background: var(--accent); color: white; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; border: none; }
+.nav-back:hover { background: var(--accent-warm); }
+.hero { background: linear-gradient(135deg, var(--bg-3) 0%, #0a0a0a 100%); color: white; padding: 140px 32px 80px; text-align: center; }
+.hero-eyebrow { display: inline-block; background: rgba(82, 183, 136, 0.15); border: 1px solid #52B788; color: #52B788; padding: 8px 20px; border-radius: 4px; font-size: 0.65rem; letter-spacing: 0.3em; text-transform: uppercase; font-weight: 700; margin-bottom: 24px; }
+.hero h1 { font-family: 'Cormorant', serif; font-size: clamp(2.5rem, 5vw, 4.5rem); font-weight: 500; letter-spacing: -0.02em; }
+.content { max-width: 900px; margin: -40px auto 0; padding: 80px 32px; background: white; border-radius: 8px; box-shadow: 0 20px 60px rgba(0,0,0,0.06); position: relative; }
+.content h2 { font-family: 'Cormorant', serif; font-size: 1.8rem; color: var(--fg); margin: 40px 0 16px; padding-bottom: 8px; border-bottom: 2px solid var(--accent); display: inline-block; font-weight: 600; }
+.content h2:first-child { margin-top: 0; }
+.content p, .content li { color: var(--fg); font-size: 0.95rem; margin-bottom: 12px; }
+.content ul { margin-left: 24px; margin-bottom: 16px; }
+.content strong { color: var(--fg); font-weight: 700; }
+.no-tracking { display: inline-flex; align-items: center; gap: 10px; background: var(--vert); color: white; padding: 12px 24px; border-radius: 4px; font-size: 0.85rem; font-weight: 600; margin: 16px 0 24px; }
+.cookie-table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.85rem; }
+.cookie-table th, .cookie-table td { padding: 12px; text-align: left; border-bottom: 1px solid var(--line); }
+.cookie-table th { background: var(--bg-3); color: white; font-weight: 700; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; }
+.cookie-table tbody tr:hover { background: var(--bg-2); }
+.cookie-table code { background: var(--bg-2); padding: 2px 8px; border-radius: 3px; font-family: monospace; font-size: 0.85rem; color: var(--accent); }
+.btn-action { display: inline-block; background: var(--accent); color: white; padding: 14px 28px; border-radius: 4px; text-decoration: none; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.1em; text-transform: uppercase; margin: 20px 0; border: none; cursor: pointer; font-family: inherit; }
+.btn-action:hover { background: var(--accent-warm); }
+.footer { background: var(--bg-3); color: white; padding: 60px 32px 30px; text-align: center; margin-top: 80px; }
+.footer-brand { font-family: 'Cormorant', serif; font-size: 1.5rem; color: #52B788; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,0.1); padding-top: 24px; margin-top: 24px; font-size: 0.75rem; color: rgba(255,255,255,0.5); }
+.footer a { color: #52B788; }
+@media (max-width: 700px) { .content { padding: 40px 24px; } .content h2 { font-size: 1.4rem; } .cookie-table { font-size: 0.75rem; } .cookie-table th, .cookie-table td { padding: 8px; } }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="demo-essentielle.html" class="nav-logo">
+    <span class="nav-logo-name">Studio Capillaire</span>
+    <span class="nav-logo-sub">Salon de coiffure · Paris</span>
+  </a>
+  <a href="demo-essentielle.html" class="nav-back">← Retour</a>
+</nav>
+
+<section class="hero">
+  <div class="hero-eyebrow">🍪 Information</div>
+  <h1>Politique de cookies</h1>
+</section>
+
+<main class="content">
+
+  <div class="no-tracking">✓ Aucun cookie de tracking publicitaire</div>
+
+  <h2>1. Qu'est-ce qu'un cookie ?</h2>
+  <p>Un cookie est un petit fichier texte déposé sur votre appareil (ordinateur, smartphone, tablette) lors de votre visite sur un site web. Il permet au site de mémoriser certaines informations pour améliorer votre expérience.</p>
+
+  <h2>2. Notre approche</h2>
+  <p>Studio Capillaire applique une approche <strong>minimaliste et respectueuse</strong> de votre vie privée. Nous n'utilisons <strong>aucun cookie de tracking publicitaire</strong>, aucun cookie de réseaux sociaux, et aucun cookie de profilage.</p>
+
+  <h2>3. Cookies utilisés</h2>
+  <p>Voici la liste complète des cookies utilisés sur ce site :</p>
+
+  <table class="cookie-table">
+    <thead>
+      <tr>
+        <th>Nom</th>
+        <th>Type</th>
+        <th>Finalité</th>
+        <th>Durée</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>sc_cookies_choice</code></td>
+        <td>Essentiel</td>
+        <td>Mémoriser votre choix concernant les cookies</td>
+        <td>1 an</td>
+      </tr>
+      <tr>
+        <td><code>sc_cookies_date</code></td>
+        <td>Essentiel</td>
+        <td>Date de votre acceptation (légal RGPD)</td>
+        <td>1 an</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p><em>Ces cookies sont strictement nécessaires au fonctionnement du site et ne nécessitent pas votre consentement préalable (Art. 82 de la loi Informatique et Libertés).</em></p>
+
+  <h2>4. Cookies tiers</h2>
+  <p><strong>Aucun cookie tiers</strong> n'est utilisé sur ce site. Nous n'incorporons :</p>
+  <ul>
+    <li>❌ Aucun Google Analytics</li>
+    <li>❌ Aucun pixel Facebook</li>
+    <li>❌ Aucun cookie publicitaire</li>
+    <li>❌ Aucun cookie de réseaux sociaux</li>
+  </ul>
+
+  <h2>5. Gérer vos préférences</h2>
+  <p>Vous pouvez à tout moment modifier vos préférences ou retirer votre consentement.</p>
+  <button class="btn-action" onclick="resetCookies()">🗑 Réinitialiser mon choix</button>
+  <p>Vous pouvez aussi configurer votre navigateur pour bloquer ou supprimer les cookies :</p>
+  <ul>
+    <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener">Google Chrome</a></li>
+    <li><a href="https://support.mozilla.org/fr/kb/cookies-informations-sites-enregistrent" target="_blank" rel="noopener">Mozilla Firefox</a></li>
+    <li><a href="https://support.apple.com/fr-fr/guide/safari/sfri11471/mac" target="_blank" rel="noopener">Safari</a></li>
+    <li><a href="https://support.microsoft.com/fr-fr/microsoft-edge" target="_blank" rel="noopener">Microsoft Edge</a></li>
+  </ul>
+
+  <h2>6. Évolution de cette politique</h2>
+  <p>Cette politique peut être mise à jour. Toute modification substantielle vous sera notifiée via le bandeau cookies.</p>
+
+  <h2>7. Plus d'informations</h2>
+  <p>Pour en savoir plus, consultez notre <a href="politique-confidentialite-studio.html">politique de confidentialité</a> ou contactez-nous : <a href="mailto:contact@studiocapillaire.fr">contact@studiocapillaire.fr</a></p>
+
+  <p style="margin-top: 40px; font-size: 0.85rem; color: var(--fg-soft); text-align: center;">
+    <em>Dernière mise à jour : 13 mai 2026</em>
+  </p>
+</main>
+
+<footer class="footer">
+  <div class="footer-brand">Studio Capillaire</div>
+  <p style="margin: 12px 0; opacity: 0.7; font-size: 0.9rem;">Salon de coiffure · Paris</p>
+  <div class="footer-bottom">
+    © 2026 Studio Capillaire · <a href="demo-essentielle.html">Accueil</a> · 
+    <a href="mentions-legales-studio.html">Mentions légales</a> · 
+    <a href="politique-confidentialite-studio.html">Confidentialité</a>
+  </div>
+</footer>
+
+<script>
+function resetCookies() {
+  localStorage.removeItem('sc_cookies_choice');
+  localStorage.removeItem('sc_cookies_date');
+  alert('✓ Vos préférences ont été réinitialisées. Le bandeau cookies réapparaîtra lors de votre prochaine visite.');
+}
+</script>
+
+</body>
+</html>
